@@ -1,0 +1,38 @@
+@font-face {
+    font-family:Font;
+    src: url(./plusjakartasans-ldioaomqnqcsa88c7o9yz4kmcoog4ko20yw.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:Font;
+    background-color: black;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-family: Font;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    font-weight:70;
+    border-radius: 2px;
+    background-color:#0032c1;
+    position: relative;
+    z-index: 9;
+}
+button:active{
+    scale: 0.95;
+}
